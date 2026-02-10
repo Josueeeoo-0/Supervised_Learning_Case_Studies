@@ -5,7 +5,7 @@ Este repositorio forma parte del proyecto del curso de *Machine Learning* que cu
 El objetivo del proyecto es aplicar técnicas de **aprendizaje supervisado** a problemas clásicos de **clasificación**, siguiendo un flujo de trabajo completo que incluye preprocesamiento de datos, entrenamiento de modelos, ajuste de hiperparámetros y evaluación del desempeño.  
 El trabajo se documenta paso a paso mediante cuadernos de Jupyter.
 
-## Temas principales abordados
+Temas principales abordados
 - Carga y exploración de datos
 - Preprocesamiento y preparación de características
 - Modelos de clasificación supervisada
@@ -14,7 +14,6 @@ El trabajo se documenta paso a paso mediante cuadernos de Jupyter.
 
 Todos los resultados, análisis y explicaciones se incluyen directamente en los cuadernos.
 
----
 
 ## **Proyecto 1 — Clasificación de Dígitos (MNIST)**  
 [`MNIST_Classification.ipynb`](MNIST_Classification.ipynb)
@@ -30,9 +29,10 @@ El ajuste de hiperparámetros se realiza mediante **Grid Search**, y se analizan
 > **Project description**  
 >  
 > Try to build a classifier for the MNIST dataset that achieves over 97% accuracy on the test set.  
-> The `KNeighborsClassifier` is used, and hyperparameters such as `weights` and `n_neighbors` are tuned using grid search.
+> Hint: the `KNeighborsClassifier` works quite well for this task; you just need to find good hyperparameter
+> values (try a grid search on the `weights` and `n_neighbors` hyperparameters).
 
----
+
 
 ## **Proyecto 2 — Predicción de Supervivencia (Titanic)**  
 [`Titanic_Classification.ipynb`](Titanic_Classification.ipynb)
@@ -48,7 +48,6 @@ El trabajo incluye:
 
 > **Project description**  
 >  
-> Tackle the Titanic dataset to train a classifier capable of predicting the `Survived` column based on the remaining features.  
-> The dataset is loaded using `pandas.read_csv()`, and standard preprocessing and classification techniques are applied.
-
----
+> Tackle the [Titanic dataset](https://homl.info/titanic.tgz), or download from [Kaggle]
+> (https://www.kaggle.com/c/titanic). This will give you two CSV files, train.csv and test.csv, which you can load using
+> `pandas.read_csv()`. The goal is to train a classifier that can predict the `Survived` column based on the other columns.
