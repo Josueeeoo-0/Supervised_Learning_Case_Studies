@@ -16,7 +16,7 @@ Todos los resultados, análisis y explicaciones se incluyen directamente en los 
 
 
 ## **Proyecto 1 — Clasificación de Dígitos (MNIST)**  
-[`MNIST_Classification.ipynb`](MNIST_Classification.ipynb)
+[`PROYECTO_A2A_1.ipynb`](PROYECTO_A2A_1.ipynb)
 
 Se construye un clasificador para el conjunto de datos **MNIST**, con el objetivo de alcanzar una precisión superior al **97 %** en el conjunto de prueba.
 
@@ -35,7 +35,7 @@ El ajuste de hiperparámetros se realiza mediante **Grid Search**, y se analizan
 
 
 ## **Proyecto 2 — Predicción de Supervivencia (Titanic)**  
-[`Titanic_Classification.ipynb`](Titanic_Classification.ipynb)
+[`PROYECTO_A2A_2.ipynb`](PROYECTO_A2A_2.ipynb)
 
 En este proyecto se aborda el conjunto de datos **Titanic**, con el objetivo de predecir la variable **`Survived`** a partir de las demás características disponibles.
 
