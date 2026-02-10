@@ -1,3 +1,10 @@
+> ⚠Es posible que algunas salidas interactivas no se visualicen correctamente en GitHub.
+> Para una visualización completa, consulta el cuaderno con **nbviewer**:
+> - Cuaderno MNIST: https://nbviewer.org/github/USUARIO/REPO/blob/main/PROYECTO_A2A_1.ipynb
+> - Cuaderno Titanic: https://nbviewer.org/github/USUARIO/REPO/blob/main/PROYECTO_A2A_2.ipynb
+
+---
+
 # Aprendizaje Supervisado – Estudios de Caso en Clasificación
 
 Este repositorio forma parte del proyecto del curso de *Machine Learning* que cursé en la **SIAFI**, desarrollado durante el **Curso Propedéutico**.
